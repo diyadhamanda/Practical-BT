@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./Assest/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./Assest/css/media.css" type="text/css">
+    <link rel="stylesheet" href="./assest/font/stylesheet.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="bg-light fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid justify-content-center align-items-center">
+                    <a class="navbar-brand fs-4 fw-semibold me-5 d-flex " href="#">
+                        <img src="./assest/images/main-logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-3">
+                            <li class="nav-item dropdown p-4">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="nav-item p-4">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PAGES
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown p-4">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown">FEATURE</a>
+                            </li>
+                            <li class="nav-item dropdown p-4">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown">POPULAR</a>
+                            </li>
+                            <li class="nav-item p-4"><a class="nav-link" href="#">OFFER</a></li>
+                            <li class="nav-item p-4"><a class="nav-link" href="#">DOWNLOAD APP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--HERO SECTION START-->
+        <div class="container">
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h1 class="book-heading">Life Of The<br>Wild</h1>
+                                        <p class="book-description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu feugiat
+                                            amet, libero ipsum enim pharetra hac.
+                                        </p>
+                                        <button class="read-more-btn">READ MORE →</button>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img src="./assest/images/main-banner1.jpg" alt="Book Cover" class="book-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h1 class="book-heading">Curious Cat<br>Tales</h1>
+                                        <p class="book-description">
+                                            Whiskers, mischief, and nine lives. Dive into tales of the world’s most
+                                            beloved pet.
+                                        </p>
+                                        <button class="read-more-btn">READ MORE →</button>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img src="./assest/images/main-banner2.jpg" alt="Cat Book" class="book-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h1 class="book-heading">Wonders Of<br>The Ruhr</h1>
+                                        <p class="book-description">
+                                            Explore the hidden trails and industrial beauty of the Ruhr Valley — where
+                                            nature and history meet.
+                                        </p>
+                                        <button class="read-more-btn">READ MORE →</button>
+                                    </div>
+                                    <div class="col-md-6 text-center">
+                                        <img src="./assest/images/main-banner1.jpg" alt="Ruhr Book" class="book-image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!--HERO SECTION END-->
+
+        <!--ACCORDIAN SECTION START-->
+        <section class="accordion pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>why read the books</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="accordion">
+                            <div class="accordion-item p-2">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                        Worldwide Business Company
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#whyChooseUs">
+                                    <div class="accordion-body">
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                                        dolore magnam aliquam quaerat voluptatem.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item p-2">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                        Identify Small Business Pain Points
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#whyChooseUs">
+                                    <div class="accordion-body">
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                                        dolore magnam aliquam quaerat voluptatem
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item p-2">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                        Your Data Are Secure
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#whyChooseUs">
+                                    <div class="accordion-body">
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                                        dolore magnam aliquam quaerat voluptatem
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item p-2">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                        Better Communication
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#whyChooseUs">
+                                    <div class="accordion-body">
+                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                                        dolore magnam aliquam quaerat voluptatem
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ACCORDIAN SECTION END-->
+
+        <!--BOLG SECTION SATRT-->
+        <section class="bolg">
+            <div class="container py-5">
+                <div class="text-center mb-4">
+                    <small class="text-uppercase " style="color: #777777;">Read Our Bolg</small>
+                    <h2 class="fw-bold fs-1 pt-5 pb-4">Latest Articles</h2>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card blog-card">
+                            <div class="blog-image-wrapper">
+                                <img src="./assest/images/bolg-1.jpg" class="card-img-top" alt="Blog Image">
+                            </div>
+                            <div class="card-body">
+                                <small class="text-muted">Mar 30, 2021</small>
+                                <h5 class="blog-title mt-2">Reading Books Always Makes The Moments Happy</h5>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="blog-category">Inspiration</span>
+                                    <div class="blog-icons">
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card blog-card">
+                            <div class="blog-image-wrapper">
+                                <img src="./assest/images/bolg-2.jpg" class="card-img-top" alt="Blog Image">
+                            </div>
+                            <div class="card-body">
+                                <small class="text-muted">Mar 29, 2021</small>
+                                <h5 class="blog-title mt-2">Reading Books Always Makes The Moments Happy</h5>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="blog-category">Inspiration</span>
+                                    <div class="blog-icons">
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card blog-card">
+                            <div class="blog-image-wrapper">
+                                <img src="./assest/images/post-img3.jpg" class="card-img-top" alt="Blog Image">
+                            </div>
+                            <div class="card-body">
+                                <small class="text-muted">Feb 27, 2021</small>
+                                <h5 class="blog-title mt-2">Reading Books Always Makes The Moments Happy</h5>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="blog-category">Inspiration</span>
+                                    <div class="blog-icons">
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-twitter"></i>
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center read-all-btn mt-5">
+                    <a href="#" class="btn btn-outline-secondary">Read All Articles</a>
+                </div>
+            </div>
+        </section>
+        <!--BOLG SECTION END-->
+
+        <!--CONTACT US START-->
+        ~
+        <!--CONTACT US SECTION END-->
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Swiper Init -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+
+.header .ul li{
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .ul li a{
+    color: #777777;
+    font-family: 'Raleway';
+}
+/*HERO SECTION START*/
+  .swiper {
+      padding: 60px 0;
+    }
+    .book-heading {
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 1.2;
+      color: #222;
+    }
+    .book-description {
+      font-size: 1.1rem;
+      color: #555;
+      margin-top: 20px;
+      max-width: 500px;
+    }
+    .read-more-btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #f3ebe3;
+      color: #aa6e3d;
+      border: 1px solid #ddbfae;
+      font-weight: bold;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+    .read-more-btn:hover {
+      background-color: #eae3db;
+    }
+    .book-image {
+      max-width: 100%;
+      height: auto;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #aa6e3d;
+    }
+/*HERO SECTION END*/
+
+/*ACCORDION SECTION START*/
+.accordion .accordion-button:not(.collapsed) {
+    background-color: white;
+    color: inherit;
+}
+.accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+/*ACCORDION SECTION END*/
+
+/*BOLG SECTION START*/
+.blog-image-wrapper {
+  overflow: hidden;  
+}
+
+.blog-image-wrapper img {
+  transition: transform 0.3s ease; 
+  transform-origin: center center;
+}
+
+.blog-card:hover .blog-image-wrapper img {
+  transform: scale(1.1); 
+}
+/*BOLG SECTION END*/
+
+/*CONTACT SECTION START*/
+
+/*CONTACT SECTION END*/
