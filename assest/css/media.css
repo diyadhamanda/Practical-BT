@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+  .book-heading {
+    font-size: 1.8rem;
+  }
+
+  .read-more-btn {
+    width: 100%;
+  }
+
+  .blog-title {
+    font-size: 1rem;
+  }
+  
+  .footer p,
+  .footer .credits {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .book-image {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .swiper-slide h1 {
+    font-size: 1.5rem;
+  }
+}
