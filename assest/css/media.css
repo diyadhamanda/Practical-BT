@@ -1,16 +1,8 @@
 @media (max-width: 576px) {
-  .book-heading {
-    font-size: 1.8rem;
-  }
-
-  .read-more-btn {
-    width: 100%;
-  }
-
   .blog-title {
     font-size: 1rem;
   }
-  
+
   .footer p,
   .footer .credits {
     font-size: 13px;
@@ -18,15 +10,38 @@
   }
 }
 
-
 @media (max-width: 768px) {
-  .book-image {
-    max-width: 80%;
-    height: auto;
-    margin: 0 auto;
+  .row.align-items-center {
+    flex-direction: column-reverse !important;
   }
 
-  .swiper-slide h1 {
-    font-size: 1.5rem;
+  .book-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
   }
+
+  .book-description {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .read-more-btn {
+    display: block;
+    margin: 10px auto 0 auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .book-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .contact .col-md-6{
+    margin-bottom: 1rem;
+  }
+
 }
